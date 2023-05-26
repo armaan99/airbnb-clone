@@ -31,11 +31,17 @@
 }
 
 .template-image img {
+    height: 100%;
+}
+
+.img-div {
     height: 320px;
+    overflow: hidden;
 }
 
 .img-related-content {
     padding-left: 60px;
+    padding-right: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,4 +118,43 @@
     stroke-width: 4;
     overflow: visible;
     transition: all 0.3s;
+}
+
+@media only screen and (max-width:768px){
+    .question {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
+
+    .ques-box {
+        padding-bottom: 20px;
+    }
+    
+    .template-image {
+        flex-direction: column;
+    }
+
+    .img-div {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-related-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .template-image {
+        margin-top: 0px;
+    }
 }

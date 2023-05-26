@@ -56,10 +56,12 @@ export default function Question() {
         </div>
       </div>
       <div className="template-image">
-        <img
-          src="https://a0.muscache.com/im/pictures/c19751e5-cd4f-41d0-898f-2580b60cae08.jpg?im_w=1200&im_q=highq"
-          alt=""
-        />
+        <div className="img-div">
+          <img
+            src="https://a0.muscache.com/im/pictures/c19751e5-cd4f-41d0-898f-2580b60cae08.jpg?im_w=1200&im_q=highq"
+            alt=""
+          />
+        </div>
         <div className="img-related-content">
           <div className="img-head">Still have questions?</div>
           <div className="img-subhead">

@@ -4,7 +4,7 @@
 
 .setup-header {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -34,3 +34,26 @@
     color: #717171;
 }
 
+@media only screen and (max-width: 1024px){
+    .setup-content {
+        flex-direction: column;
+    }
+
+    .setup-content-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .setup-header {
+        font-size: 30px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .setup-header {
+        font-size: 26px;
+    }
+}

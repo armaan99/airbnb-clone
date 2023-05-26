@@ -78,3 +78,47 @@
 .btn-learn-more:hover {
     background-color: whitesmoke;
 }
+
+@media only screen and (max-width:768px){
+    .protection-header {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .tbl-airbnb {
+        font-size: 16px;
+    }
+    
+    .tbl-competitors {
+        font-size: 16px;
+    }
+
+    .tbl-title {
+        font-size: 20px;
+    }
+
+    .tbl-desc {
+        padding-right: 0px;
+        grid-column: 1/4;
+    }
+
+    .btn-learn-more {
+        margin-left: 0px;
+    }
+
+    .table {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .protection-header {
+        font-size: 26px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .table-block {
+        padding: 25px 0px;
+    }
+}

@@ -9,9 +9,11 @@ export default function Footer() {
         {data.map((item, index) => (
           <div key={index} className="f1-block">
             <div className="block-head">{item.title}</div>
-            {item.items.map((subitem, index) => (
-              <div className="block-content">{subitem}</div>
-            ))}
+            <div className="subitem-block">
+              {item.items.map((subitem, index) => (
+                <div className="block-content">{subitem}</div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
