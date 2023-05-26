@@ -1,0 +1,80 @@
+.protection {
+    padding: 80px 0px;
+}
+
+.protection img {
+    height: auto;
+    width: 180px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.protection-header {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0px 40px 0px;
+    font-weight: 600;
+}
+
+.table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.table-block {
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+    padding: 40px 0px;
+    margin-bottom: 5px;
+    border-bottom: solid rgb(221 221 221) 1px;
+}
+
+.tbl-title {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.tbl-title2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tbl-airbnb {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.tbl-competitors {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.tbl-desc {
+    color: #717171;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.btn-learn-more {
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: calc(50% - 60px);
+    cursor: pointer;
+}
+
+.btn-learn-more:hover {
+    background-color: whitesmoke;
+}

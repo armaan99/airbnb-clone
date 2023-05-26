@@ -1,0 +1,32 @@
+.footer {
+    background-color: #f7f7f7;
+    width: 86vw;
+    margin-left: -7vw;
+    padding: 80px 7vw;
+    border-top: solid #dddddd 1px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-head {
+    font-weight: 600;
+    font-size: 15px;
+    height: 40px;
+}
+
+.block-content {
+    height: 40px;
+    font-size: 14px;
+}
+
+.footer2 {
+    border-top: solid #dddddd 1px;
+    margin-top: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}

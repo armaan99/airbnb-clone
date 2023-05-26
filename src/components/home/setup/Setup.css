@@ -1,0 +1,36 @@
+.setup {
+    padding-top: 80px;
+}
+
+.setup-header {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.setup-img img {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.setup-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.setup-content-block {
+    width: 28%;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.scb-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.scb-desc {
+    color: #717171;
+}
+
